@@ -1,0 +1,14 @@
+build
+stamp-*
+config.h
+config.status
+config.log
+libtool
+*.pkg
+*.elf
+*.o
+*.so
+*.a
+*.self
+*.lo
+*.la
