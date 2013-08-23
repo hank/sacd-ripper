@@ -1,0 +1,37 @@
+version 0.3.7
+
+    - fixed a bug where arranger phonetic was referenced incorrectly during print (-P)
+    - option to allow individual dsf/dsdiff track extraction
+    - added (foobar) compatible escaping to cuesheets
+    - added user optional output filename/folder (last parameter)
+
+version 0.3.6
+
+    - network speed improvement
+    - added native OS X support
+    - gapless is on by default for individual tracks
+    - fixed issue where CUE export wrote to wrong filename
+
+version 0.3.5
+
+    - added ID3 tags to Edit Master for multiple ID3 tagging
+    - added option to export individual CUE Sheets
+    - fixed DSTI table where DST Edit Master > 2GB
+    - fixed SACD to ID3 genre conversion table
+
+version 0.3.4 (bug fix release, please update if running 0.3.3)
+
+    - fixed a bug where DSTI was incorrectly part of DSD chunk
+
+version 0.3.3 (bug fix release, please update if running 0.3.2)
+
+    - fixed a bug where a wrong DSDIFF header was written for edit masters
+
+version 0.3.2
+
+    - added DSDIFF Edit Master (single DSD file) support
+    - added CUE Sheet support for Edit Master
+    - added DST frame buffer overflow protection
+    - added DST frame index chunk support
+    - removed gapless support (replaced by DSDIFF Edit Master)
+    - merged Maxims optimized FIR decoder
